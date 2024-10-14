@@ -1,4 +1,9 @@
 .idea
+data/db/
+data/html/
+logs/nginx/
+wp-content/languages/
+plugins/
 themes/twentytwentyfour/
 themes/twentytwentythree/
 themes/twentytwentytwo/
