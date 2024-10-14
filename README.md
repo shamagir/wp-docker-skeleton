@@ -1,4 +1,5 @@
 You have to clone .env.template and rename it to .env and do some changes if you need  
+You can change php-version for wp in docker-composer (string 19) 
 
 Work folders put into 
 - ./wp-content/themes for themes
