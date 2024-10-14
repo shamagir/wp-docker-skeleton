@@ -15,7 +15,6 @@ services:
 
   wordpress:
     depends_on:
-      - nginx
       - db
     image: wordpress:latest # or wordpress:php7.4 for example
     volumes:
