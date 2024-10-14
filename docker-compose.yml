@@ -20,7 +20,8 @@ services:
     volumes:
       - ./upload.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./data/html:/var/www/html
-      - ./wp-content:/var/www/html/wp-content
+      - ./wp-content/themes:/var/www/html/wp-content/themes
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins
     ports:
       - "80:80"
     restart: always
