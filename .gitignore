@@ -1,4 +1,5 @@
 .idea
+.env
 data/db/
 data/html/
 wp-content/plugins/

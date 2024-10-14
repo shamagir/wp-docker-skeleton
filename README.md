@@ -3,6 +3,8 @@ You have to create some folders
 - ./data/db
 - ./data/html
 
+You have to clone .env.template and rename it to .env and do some changes if you need
+
 Work folders put into 
 - ./wp-content/themes for themes
 - ./wp-content/plugins for plugins
