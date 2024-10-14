@@ -2,9 +2,10 @@
 data/db/
 data/html/
 wp-content/plugins/
-themes/twentytwentyfour/
-themes/twentytwentythree/
-themes/twentytwentytwo/
+wp-content/themes/
+
+#!wp-content/themes/{your-plugin}
+#!wp-content/themes/{your-theme}
 
 
 
