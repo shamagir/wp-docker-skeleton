@@ -1,4 +1,4 @@
-You have to clone .env.template and rename it to .env and do some changes if you need
+You have to clone .env.template and rename it to .env and do some changes if you need  
 
 Work folders put into 
 - ./wp-content/themes for themes
