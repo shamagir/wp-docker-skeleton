@@ -1,14 +1,5 @@
 services:
 
-  nginx:
-    image: nginx:latest
-    volumes:
-      - ./nginx:/etc/nginx/conf.d
-      - ./data/html:/var/www/html
-      - ./logs/nginx:/var/log/nginx
-    ports:
-      - "8080:80"
-
   db:
      image: mariadb
      volumes:
@@ -26,7 +17,7 @@ services:
     depends_on:
       - nginx
       - db
-    image: wordpress:latest
+    image: wordpress:latest # or wordpress:php7.4 for example
     volumes:
       - ./upload.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./data/html:/var/www/html
